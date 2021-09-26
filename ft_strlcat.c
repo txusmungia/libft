@@ -6,7 +6,7 @@
 /*   By: jemartin <jemartin@student.42urduliz.      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/30 09:26:59 by jemartin          #+#    #+#             */
-/*   Updated: 2021/08/30 10:57:37 by jemartin         ###   ########.fr       */
+/*   Updated: 2021/09/26 18:34:00 by jemartin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,4 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 		*(dst + i++) = *src++;
 	*(dst + i) = 0;
 	return (dst_len + src_len);
-}
+}	

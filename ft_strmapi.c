@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strmapi.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jemartin <jemartin@student.42urduliz.      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/26 17:05:56 by jemartin          #+#    #+#             */
+/*   Updated: 2021/09/26 17:06:32 by jemartin         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
-//mklgit
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -21,5 +32,4 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	str[i] = '\0';
 	return (str);
-
 }
